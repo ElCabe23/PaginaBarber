@@ -1,0 +1,894 @@
+.fondo {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: url(/PaginaBarber/Imagenes/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.logo {
+  position: absolute;
+  width: 496px;
+  height: 309px;
+  left: 172px;
+  top: 5px;
+  background: url(/PaginaBarber/Imagenes/Logo.jpg);
+  background-repeat: no-repeat;
+}
+
+.bienvenido {
+  position: absolute;
+  width: 490px;
+  height: 78px;
+  left: 830px;
+  top: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.ingreso {
+  position: absolute;
+  width: 160px;
+  height: 33px;
+  left: 1000px;
+  top: 129px;
+  background: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.conocemas {
+  position: absolute;
+  width: 489px;
+  height: 148px;
+  left: 830px;
+  top: 155px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+}
+
+.nuestraH {
+  position: absolute;
+  width: 221px;
+  height: 37px;
+  left: 123px;
+  top: 336px;
+  background: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.nuestraU {
+  position: absolute;
+  width: 221px;
+  height: 37px;
+  left: 366px;
+  top: 336px;
+  background: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.nuestroE {
+  position: absolute;
+  width: 221px;
+  height: 37px;
+  left: 609px;
+  top: 336px;
+  background: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.precios {
+  position: absolute;
+  width: 221px;
+  height: 37px;
+  left: 852px;
+  top: 336px;
+  background: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.resena {
+  position: absolute;
+  width: 221px;
+  height: 37px;
+  left: 1095px;
+  top: 336px;
+  background: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.datosNuestraH {
+  position: absolute;
+  width: 221px;
+  height: 305px;
+  left: 123px;
+  top: 383px;
+}
+
+.datosNuestraU {
+  position: absolute;
+  width: 221px;
+  height: 305px;
+  left: 366px;
+  top: 383px;
+}
+
+.datosNuestroE1 {
+  position: absolute;
+  width: 221px;
+  height: 148px;
+  left: 609px;
+  top: 383px;
+}
+
+.datosNuestroE2 {
+  position: absolute;
+  width: 221px;
+  height: 148px;
+  left: 609px;
+  top: 540px;
+}
+
+.datosPrecios {
+  position: absolute;
+  width: 221px;
+  height: 305px;
+  left: 852px;
+  top: 383px;
+}
+
+.datosResena {
+  position: absolute;
+  width: 221px;
+  height: 305px;
+  left: 1095px;
+  top: 383px;
+}
+
+.fotos {
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+}
+
+.misfotos {
+  position: absolute;
+  width: 1440px;
+  height: 164px;
+  left: 0px;
+  top: 736px;
+  display: flex;
+  justify-content: center;
+}
+
+.contacto {
+  position: absolute;
+  width: 696px;
+  height: 113px;
+  left: 150px;
+  top: 890px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.iconoface {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1064px;
+  top: 914px;
+}
+
+.datosface {
+  position: absolute;
+  width: 96px;
+  height: 24px;
+  left: 1150px;
+  top: 895px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.iconoinsta {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1064px;
+  top: 950px;
+}
+
+.datosinsta {
+  position: absolute;
+  width: 96px;
+  height: 24px;
+  left: 1150px;
+  top: 930px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.iconoyoutube {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1064px;
+  top: 986px;
+}
+
+.datosyoutube {
+  position: absolute;
+  width: 96px;
+  height: 24px;
+  left: 1150px;
+  top: 965px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.tituloIngreso {
+  position: absolute;
+  width: 666px;
+  height: 96px;
+  left: 400px;
+  top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+}
+
+.logoIngreso {
+  position: absolute;
+  width: 543px;
+  height: 240px;
+  left: 490px;
+  top: 180px;
+  background: url(/PaginaBarber/Imagenes/Logo.jpg);
+  background-repeat: no-repeat;
+}
+
+.lblId {
+  position: absolute;
+  width: 169px;
+  height: 37px;
+  left: 391px;
+  top: 440px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtId {
+  position: absolute;
+  width: 423px;
+  height: 36px;
+  left: 610px;
+  top: 470px;
+  background: #ffffff;
+}
+
+.lblContrasena {
+  position: absolute;
+  width: 230px;
+  height: 44px;
+  left: 361px;
+  top: 500px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtContrasena {
+  position: absolute;
+  width: 423px;
+  height: 36px;
+  left: 610px;
+  top: 525px;
+  background: #ffffff;
+}
+
+.btnAceptar {
+  position: absolute;
+  width: 163px;
+  height: 63px;
+  left: 641px;
+  top: 585px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.lblNoRegistro {
+  position: absolute;
+  width: 354px;
+  height: 43px;
+  left: 556px;
+  top: 610px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.btnNoRegistro {
+  position: absolute;
+  width: 243px;
+  height: 40px;
+  left: 611px;
+  top: 675px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #5becf6;
+}
+
+.lblOlvidoContra {
+  position: absolute;
+  width: 432px;
+  height: 44px;
+  left: 517px;
+  top: 730px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.btnOlvidoContra {
+  position: absolute;
+  width: 383px;
+  height: 46px;
+  left: 549px;
+  top: 800px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #5becf6;
+}
+
+.logoRegistro {
+  position: absolute;
+  width: 420px;
+  height: 203px;
+  left: 541px;
+  top: 14px;
+  background: url(/PaginaBarber/Imagenes/Logo.jpg);
+}
+
+.rNombre {
+  position: absolute;
+  width: 261px;
+  height: 35px;
+  left: 388px;
+  top: 250px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtrNombre {
+  position: absolute;
+  width: 350px;
+  height: 35px;
+  left: 802px;
+  top: 280px;
+  background: #ffffff;
+}
+
+.rApellidos {
+  position: absolute;
+  width: 222px;
+  height: 33px;
+  left: 407px;
+  top: 300px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtrApellidos {
+  position: absolute;
+  width: 350px;
+  height: 35px;
+  left: 802px;
+  top: 330px;
+  background: #ffffff;
+}
+
+.rId {
+  position: absolute;
+  width: 438px;
+  height: 46px;
+  left: 313px;
+  top: 350px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtrId {
+  position: absolute;
+  width: 350px;
+  height: 35px;
+  left: 802px;
+  top: 380px;
+  background: #ffffff;
+}
+
+.rNacimiento {
+  position: absolute;
+  width: 431px;
+  height: 46px;
+  left: 303px;
+  top: 400px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtrNacimiento {
+  position: absolute;
+  width: 350px;
+  height: 35px;
+  left: 802px;
+  top: 430px;
+  background: #ffffff;
+}
+
+.rCorreo {
+  position: absolute;
+  width: 144px;
+  height: 34px;
+  left: 446px;
+  top: 450px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtrCorreo {
+  position: absolute;
+  width: 350px;
+  height: 35px;
+  left: 802px;
+  top: 480px;
+  background: #ffffff;
+}
+
+.rCel {
+  position: absolute;
+  width: 144px;
+  height: 33px;
+  left: 434px;
+  top: 500px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtrCel {
+  position: absolute;
+  width: 350px;
+  height: 35px;
+  left: 802px;
+  top: 530px;
+  background: #ffffff;
+}
+
+.rContrasena {
+  position: absolute;
+  width: 239px;
+  height: 34px;
+  left: 385px;
+  top: 550px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtrContrasena {
+  position: absolute;
+  width: 350px;
+  height: 35px;
+  left: 802px;
+  top: 580px;
+  background: #ffffff;
+}
+
+.rConfirmarContrasena {
+  position: absolute;
+  width: 439px;
+  height: 44px;
+  left: 287px;
+  top: 600px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtrConfirmarContrasena {
+  position: absolute;
+  width: 350px;
+  height: 35px;
+  left: 802px;
+  top: 630px;
+  background: #ffffff;
+}
+
+.rReferido {
+  position: absolute;
+  width: 193px;
+  height: 46px;
+  left: 410px;
+  top: 650px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtrReferido {
+  position: absolute;
+  width: 350px;
+  height: 35px;
+  left: 802px;
+  top: 680px;
+  background: #ffffff;
+}
+
+.btnrActualizar {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 474px;
+  top: 813px;
+  background: #000000;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.btnrAceptar {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 649px;
+  top: 813px;
+  background: #000000;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.btnrInicio {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 824px;
+  top: 813px;
+  background: #000000;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.fondoTexto {
+  position: absolute;
+  width: 1038px;
+  height: 485px;
+  left: 201px;
+  top: 421px;
+  background: #d9d9d9;
+}
+
+.tituloRecuperar {
+  position: absolute;
+  width: 805px;
+  height: 78px;
+  left: 135px;
+  top: 30px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.lblCorreoR {
+  position: absolute;
+  width: 144px;
+  height: 34px;
+  left: 379px;
+  top: 570px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtCorreoR {
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 550px;
+  top: 600px;
+  background: #ffffff;
+}
+
+.lblCelR {
+  position: absolute;
+  width: 144px;
+  height: 33px;
+  left: 379px;
+  top: 640px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+}
+
+.txtCelR {
+  position: absolute;
+  width: 350px;
+  height: 40px;
+  left: 550px;
+  top: 670px;
+  background: #ffffff;
+}
+
+.btnEnviarR {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 500px;
+  top: 780px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.btnInicioR {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 750px;
+  top: 780px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.logoR {
+  position: absolute;
+  width: 711px;
+  height: 340px;
+  left: 490px;
+  top: 51px;
+  background: url(/PaginaBarber/Imagenes/Logo.jpg);
+  background-repeat: no-repeat;
+}
